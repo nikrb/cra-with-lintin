@@ -1,5 +1,30 @@
 import styled from 'styled-components';
 
+export const Title = styled.h1`
+  font-size: 1.5rem;
+  text-align: center;
+  color: palevioletred;
+`;
+
+export const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`;
+export const Input = styled.input`
+  padding: 0.5em;
+  margin: 0.5em;
+  color: palevioletred;
+  background: papayawhip;
+  border: none;
+  border-radius: 3px;
+  border: 2px solid transparent;
+
+  &:focus {
+    // outline: 2px solid green;
+    border: 2px solid green;
+  }
+`;
+
 export const CoolStyledButton = styled.button`
   background-color: #bada55;
   border: none;
