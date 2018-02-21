@@ -1,5 +1,6 @@
 {
-  "name": "cra-with-lintin",
+  "name": "cra-lintin-jest-styled-components",
+  "description": "forked cra-with-lintin using airbnb and styled components. added jest to test style changes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,12 +12,18 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint": "node_modules/.bin/eslint src",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "eslint": "^4.18.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-babel": "^4.1.2",
-    "eslint-plugin-jsx-a11y": "^5"
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "jest-styled-components": "^4.11.0-1",
+    "react-test-renderer": "^16.2.0"
   }
 }
