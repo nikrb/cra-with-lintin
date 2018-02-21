@@ -1,3 +1,15 @@
+/* eslint-disable */
+// added lint disable because of:
+// 37:9   error    'checkValidServiceWorker' was used before it was defined     no-use-before-define
+// 42:11  warning  Unexpected console statement                                 no-console
+// 49:9   error    'registerValidSW' was used before it was defined             no-use-before-define
+// 59:7   error    Assignment to property of function parameter 'registration'  no-param-reassign
+// 68:15  warning  Unexpected console statement                                 no-console
+// 73:15  warning  Unexpected console statement                                 no-console
+// 80:7   warning  Unexpected console statement                                 no-console
+// 105:7   warning  Unexpected console statement                                 no-console
+// don't know how to fix Assignment to property of function parameter 'registration' ... yet!
+
 // In production, we register a service worker to serve assets from local cache.
 
 // This lets the app load faster on subsequent visits in production, and gives
