@@ -10,4 +10,5 @@ const Button = styled.button`
 test('it works', () => {
   const tree = renderer.create(<Button>Test</Button>).toJSON();
   expect(tree).toMatchSnapshot();
+  expect(tree).toHaveStyleRule('color', 'blue');
 });
